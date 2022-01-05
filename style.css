@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 8px 12px;
+}
+.navbar_logo { 
+    font-size: 24px;
+    color: white;
+}
+.navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar_menu li{
+    padding: 8px 12px;
+}
+.navbar_menu li:hover {
+    background-color: lightgray;
+}
+
