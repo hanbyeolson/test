@@ -1,32 +1,40 @@
-body{
+body {
     margin: 0;
 }
-a{
-    text-decoration: none;
-    color: white;
+
+li {
+    display: inline;
 }
 
-.navbar {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: white;
     padding: 8px 12px;
 }
-.navbar_logo { 
-    font-size: 24px;
-    color: white;
+
+.header_logo {
+    
 }
-.navbar_menu {
+
+.header_menu {
     display: flex;
     list-style: none;
-    padding-left: 0;
+    padding-left: 0px;
 }
 
-.navbar_menu li{
+.header_menu li {
     padding: 8px 12px;
-}
-.navbar_menu li:hover {
-    background-color: lightgray;
+    display: flex;
 }
 
+.header_menu li:hover {
+    background-color: lightgray;
+    border-radius: 4px;
+}
